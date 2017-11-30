@@ -3,14 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: note
-subtitle: freedom
-description: test
+title: freedomDR
+subtitle: DR
+description: 一些记录
 author: freedom
-language: english
+language: zh-Hans
 timezone:
-url: http://yoursite.com
-root: /eee
+
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -69,9 +68,17 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: next 
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: https://github.com/freedomDR/freedomDR.github.io.git
+  branch: master
+
+menu:
+    home: /
+    archives: /archives
+    tags: /tags
+    categories: /categories
