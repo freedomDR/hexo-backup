@@ -9,7 +9,6 @@ description: 一些记录
 author: freedom
 language: zh-Hans
 timezone:
-
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
