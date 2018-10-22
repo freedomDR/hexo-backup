@@ -9,6 +9,8 @@ description: 一些记录
 author: freedom
 language: zh-Hans
 timezone:
+
+url: https://freedomdr.github.io/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -76,8 +78,13 @@ deploy:
   repo: https://github.com/freedomDR/freedomDR.github.io.git
   branch: master
 
-menu:
-    home: /
-    archives: /archives
-    tags: /tags
-    categories: /categories
+#menu:
+#    home: /
+#    archives: /archives
+#    tags: /tags
+#    categories: /categories
+algolia:
+  applicationID: '2QIEK6JR01'
+  apiKey: '7b253dffb78ba3c7df888687c789291e'
+  indexName: 'freedomdr'
+  chunkSize: 5000
